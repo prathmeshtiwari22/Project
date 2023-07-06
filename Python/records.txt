@@ -1,0 +1,7 @@
+ Record:1 Time: 20:38 And Message: study 
+ Record:1 Time: 20:41 And Message: busy 
+ Record:1 Time: 20:41 And Message: busy 
+ Record:1 Time: 20:44 And Message: ipl 
+ Record:1 Time: 22:32 And Message: paras 
+ Record:1 Time: 14:47 And Message: test 
+ Record:1 Time: 10:18 And Message: mam  

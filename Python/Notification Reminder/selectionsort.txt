@@ -1,0 +1,43 @@
+#include<stdio.h>
+int selection_sort(int array[],int n)
+{
+int i,j,temp,small;
+for(i=0;i<n-1;i++)
+{
+ small=i;
+ for(j=i+1;j<n;j++)
+ if(array[j]<array[small])
+ small=j;
+ 
+ temp=array[small];
+ array[small]=array[i];
+ array[i]=temp;
+}
+}
+int printarr(int array[],int n)
+{
+int i;
+printf("THE ARRAY : \n");
+for(i=0;i<n;i++)
+{
+printf("%d ",array[i]);
+}
+}
+int main()
+{
+int i,n;
+printf("Enter the number of elements :");
+scanf("%d",&n);
+int array[n];
+printf("Enter the elemnents :");
+for(i=0;i<n;i++)
+{
+scanf("%d",&array[i]);
+}
+printf("BEFORE:");
+printarr(array,n);
+printf(" \n AFTER: ");
+selection_sort(array,n);
+printarr(array,n);
+
+}
